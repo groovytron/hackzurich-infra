@@ -13,7 +13,8 @@ Run `terraform init` to install the dependencies.
 
 ## Playing with the infrastructure
 
-1. Run `terraform validate` to validate your configuration and make sure it is runnable
-2. Run `terraform plan` to check what actions need to be performed to reach the desired state
-3. Run `terraform apply` to perform actions to reach the desired state (create/delete/update resources)
-4. Run `terraform destroy` to destroy your infrastructure
+1. Rename `terraform.tfvars.example` file into `terraform.tfvars` and edit it following your needs
+2. Run `terraform validate` to validate your configuration and make sure it is runnable
+3. Run `terraform plan` to check what actions need to be performed to reach the desired state
+4. Run `terraform apply` to perform actions to reach the desired state (create/delete/update resources)
+5. Run `terraform destroy` to destroy your infrastructure
